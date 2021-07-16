@@ -1,0 +1,15 @@
+// 2- Home screen with navigation to below 2 screens
+// 3- Screen #1 to create a vacation request form for saving below information:
+// a. Vacation request information to be saved with validation description:
+// i. Name (required field),
+// ii. Department name (required field), select a value from the values [“department_1”,
+// “department_2”, “department_3” ] as a lookup
+// iii. Mobile number(optional),
+// iv. start date (required field, must be date)
+// v. number of requested days (required, must be number)
+// b. Saving data in a global state to retrieve in the screen #2,
+// 4- Screen #2 to display a list of vacation requests, with ability to:
+// a. List all saved vacation requests
+// b. search by name or replacement name,
+// c. display each vacation request information item in a readable view,
+// d. implementing a delete operation for deleting a vacation request
